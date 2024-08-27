@@ -1,25 +1,25 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "zh-cn"
+languageName = "简体中文"
 weight = 1
 title = "Blowfish"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "CN"
+  isoCode = "zh-cn"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2 一月 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
+[author]
+  name = "Bananafish"
+  email = "darkbananafish@gmail.com"
+  image = "img/blowfish_logo.png"
+  imageQuality = 96
+  headline = "大海深处。"
+  bio = "是谁呢？"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
