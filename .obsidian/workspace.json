@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/你好.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/你好.md",
+                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/你好.md",
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/你好.md"
+                "file": "content/about.md"
               }
             }
           },
@@ -154,9 +154,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f78e9d93402e9c7e",
+  "active": "f7a6a5755d3572a8",
   "lastOpenFiles": [
-    "content/posts/hello.md",
-    "content/posts/你好.md"
+    "theme.toml",
+    "netlify.toml",
+    "config/_default/hugo.toml",
+    "config/_default/params.toml",
+    "config/_default/menus.ja.toml",
+    "config/_default/menus.zh-cn.toml",
+    "config/_default/menus.it.toml",
+    "config/_default/menus.en.toml",
+    "config/_default/markup.toml",
+    "config/_default/languages.zh-cn.toml",
+    "config/_default/languages.ja.toml",
+    "archetypes/default.md",
+    "content/_index.md",
+    "content/_index.it.md",
+    "content/users/vkmki001.github.io/index.zh-cn.md",
+    "content/users/vkmki001.github.io/index.md",
+    "content/users/vkmki001.github.io/index.ja.md",
+    "content/users/vkmki001.github.io/index.it.md",
+    "content/users/vkmki001.github.io/feature.jpg",
+    "content/users/renaud.warnotte.be/index.zh-cn.md",
+    "content/users/renaud.warnotte.be/index.md",
+    "content/users/renaud.warnotte.be/index.ja.md",
+    "content/users/renaud.warnotte.be/index.it.md",
+    "content/users/renaud.warnotte.be/feature.jpg",
+    "content/users/_index.md",
+    "content/users/Adam Madej - Gameplay Animator/index.zh-cn.md",
+    "content/users/Adam Madej - Gameplay Animator/index.md",
+    "content/users/Adam Madej - Gameplay Animator/index.ja.md",
+    "content/users/Adam Madej - Gameplay Animator/index.it.md",
+    "content/users/Adam Madej - Gameplay Animator/feature.jpg",
+    "content/users/lelouvincx.github.io/index.zh-cn.md",
+    "content/users/lelouvincx.github.io/index.md",
+    "content/users/lelouvincx.github.io/index.ja.md",
+    "content/users/lelouvincx.github.io/index.it.md",
+    "content/users/lelouvincx.github.io/feature.jpg",
+    "content/users/niklas-hartmann-dev.de/index.zh-cn.md",
+    "content/users/niklas-hartmann-dev.de/index.md",
+    "content/users/niklas-hartmann-dev.de/index.ja.md",
+    "content/users/niklas-hartmann-dev.de/index.it.md",
+    "content/users/niklas-hartmann-dev.de/feature.jpg",
+    "content/users/mayer.life/index.zh-cn.md",
+    "content/users/mayer.life/feature.jpg",
+    "content/users/theindiecoder.cloud/feature.jpg",
+    "content/users/clemsau.com/feature.jpg",
+    "content/users/nveshaan/feature.jpg",
+    "content/users/nick.bouwhuis.net/feature.jpg"
   ]
 }
