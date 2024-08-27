@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://blog.bananafish.pro/"
 languageCode = "en-us"
 theme = "hugo-theme-terminal"
 paginate = 5
