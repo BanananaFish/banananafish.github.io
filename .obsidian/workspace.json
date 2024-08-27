@@ -11,12 +11,8 @@
             "id": "f7a6a5755d3572a8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/about.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/about.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,51 +148,51 @@
   },
   "active": "f7a6a5755d3572a8",
   "lastOpenFiles": [
-    "config/_default/module.toml",
-    "public/favicon-32x32.png",
-    "public/site.webmanifest",
-    "public/android-chrome-512x512.png",
-    "public/apple-touch-icon.png",
-    "public/android-chrome-192x192.png",
-    "public/favicon.ico",
-    "public/favicon-16x16.png",
-    "config/_default/netlify.toml",
     "config/_default/theme.toml",
-    "config/_default/config.toml",
-    "未命名文件夹",
-    "theme.toml",
-    "netlify.toml",
-    "config/_default/hugo.toml",
-    "config/_default/params.toml",
+    "config/_default/languages.it.toml",
+    "config/_default/languages.ja.toml",
+    "public/android-chrome-512x512.png",
+    "public/android-chrome-192x192.png",
+    "public/site.webmanifest",
+    "public/favicon.ico",
+    "public/favicon-32x32.png",
+    "public/favicon-16x16.png",
+    "public/apple-touch-icon.png",
+    "public",
     "archetypes/default.md",
-    "content/_index.md",
-    "content/_index.it.md",
-    "content/users/vkmki001.github.io/index.zh-cn.md",
-    "content/users/vkmki001.github.io/index.md",
-    "content/users/vkmki001.github.io/index.ja.md",
-    "content/users/vkmki001.github.io/index.it.md",
-    "content/users/vkmki001.github.io/feature.jpg",
-    "content/users/renaud.warnotte.be/index.zh-cn.md",
-    "content/users/renaud.warnotte.be/index.md",
-    "content/users/renaud.warnotte.be/index.ja.md",
-    "content/users/renaud.warnotte.be/index.it.md",
-    "content/users/renaud.warnotte.be/feature.jpg",
-    "content/users/_index.md",
-    "content/users/Adam Madej - Gameplay Animator/index.zh-cn.md",
-    "content/users/Adam Madej - Gameplay Animator/index.md",
-    "content/users/Adam Madej - Gameplay Animator/index.ja.md",
-    "content/users/Adam Madej - Gameplay Animator/index.it.md",
-    "content/users/Adam Madej - Gameplay Animator/feature.jpg",
-    "content/users/lelouvincx.github.io/index.zh-cn.md",
-    "content/users/lelouvincx.github.io/index.md",
-    "content/users/lelouvincx.github.io/index.ja.md",
-    "content/users/lelouvincx.github.io/index.it.md",
-    "content/users/lelouvincx.github.io/feature.jpg",
-    "content/users/niklas-hartmann-dev.de/index.zh-cn.md",
-    "content/users/niklas-hartmann-dev.de/index.md",
-    "content/users/niklas-hartmann-dev.de/index.ja.md",
-    "content/users/niklas-hartmann-dev.de/index.it.md",
-    "content/users/niklas-hartmann-dev.de/feature.jpg",
-    "content/users/mayer.life/index.zh-cn.md"
+    "assets/js/home.js",
+    "assets/img/paint.png",
+    "assets/img/ocean.jpg",
+    "assets/img/nuno_avatar.jpg",
+    "assets/img/blowfish.jpg",
+    "assets/img/iceland.jpg",
+    "assets/js",
+    "assets/img",
+    "assets",
+    "data/authors/secondauthor.json",
+    "themes/blowfish/exampleSite/content/users/vividscc.com/index.zh-cn.md",
+    "themes/blowfish/exampleSite/content/users/vividscc.com/index.md",
+    "themes/blowfish/exampleSite/content/users/vividscc.com/index.ja.md",
+    "themes/blowfish/exampleSite/content/users/vividscc.com/index.it.md",
+    "themes/blowfish/exampleSite/content/users/江ノ島エスカー/index.zh-cn.md",
+    "themes/blowfish/exampleSite/content/users/江ノ島エスカー/index.md",
+    "themes/blowfish/exampleSite/content/users/江ノ島エスカー/index.ja.md",
+    "themes/blowfish/exampleSite/content/users/江ノ島エスカー/index.it.md",
+    "themes/blowfish/exampleSite/content/users/weaxsey.org/index.zh-cn.md",
+    "themes/blowfish/exampleSite/content/users/weaxsey.org/index.ja.md",
+    "themes/blowfish/exampleSite/content/users/weaxsey.org/index.md",
+    "themes/blowfish/exampleSite/content/users/weaxsey.org/index.it.md",
+    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.it.md",
+    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.zh-cn.md",
+    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.ja.md",
+    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.md",
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.zh-cn.md",
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.md",
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.ja.md",
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.it.md",
+    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.zh-cn.md",
+    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.md",
+    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.ja.md",
+    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.it.md"
   ]
 }
