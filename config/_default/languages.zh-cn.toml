@@ -7,10 +7,10 @@ title = "香蕉鱼鱼"
   displayName = "简体中文"
   isoCode = "zh-cn"
   rtl = false
-  dateFormat = "2006年1月2日"
-  # logo = "img/logo.png"
+  dateFormat = "January 2, 2006"
+  logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Bananafish's blog"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
@@ -21,7 +21,10 @@ title = "香蕉鱼鱼"
 #   headline = "I'm only human"
 #   bio = "A little bit about you"
   links = [
+    { github = "https://github.com/BanananaFish" },
+    { steam = "https://steamcommunity.com/id/Kimcurator/" },
     { email = "mailto:hello@your_domain.com" },
+    { youtube = "https://space.bilibili.com/1445362"}
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },

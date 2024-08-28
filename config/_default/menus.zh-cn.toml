@@ -11,51 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "文档"
-  pageRef = "docs"
+  name = "文章"
+  pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "简码"
-  pageRef = "docs/shortcodes"
+  name = "标签"
+  pageRef = "tags"
   weight = 15
 
 [[main]]
-  name = "示例"
+  name = "文档"
+  pageRef = "docs"
   weight = 20
-
-[[main]]
-  name = "功能示例"
-  parent = "示例"
-  pageRef = "samples"
-  weight = 16
-
-[[main]]
-  name = "模板示例"
-  parent = "示例"
-  pageRef = "examples"
-  weight = 30
-
-[[main]]
-  name = "部署指南"
-  parent = "示例"
-  pageRef = "guides"
-  weight = 40
-
-[[main]]
-  name = "用户列表"
-  pageRef = "users"
-  weight = 90
-
-[[main]]
-  name = "周边"
-  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
-  weight = 100
-
-#[[main]]
-#  name = "Test"
-#  pageRef = "pagTest"
-#  weight = 1000
 
 [[main]]
   identifier = "twitter"
@@ -63,29 +31,13 @@
   url = "https://twitter.com/burufugu"
   weight = 200
 
-#[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  weight = 300
-#  url = "https://masto.ai/@blowfish"
-
 [[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/nunocoracao/blowfish"
   weight = 400
 
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
- [[footer]]
-   name = "标签"
-   pageRef = "tags"
-   weight = 10
-
- [[footer]]
-   name = "作者"
-   pageRef = "authors"
-   weight = 20
+[[footer]]
+  name = "关于作者"
+  pageRef = "authors/bananafish"
+  weight = 500
