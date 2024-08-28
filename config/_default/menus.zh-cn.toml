@@ -21,20 +21,9 @@
   weight = 15
 
 [[main]]
-  name = "文档"
-  pageRef = "docs"
-  weight = 20
-
-[[main]]
-  identifier = "twitter"
-  pre = "x-twitter"
-  url = "https://twitter.com/burufugu"
-  weight = 200
-
-[[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
+  url = "https://github.com/BanananaFish/banananafish.github.io"
   weight = 400
 
 [[footer]]
