@@ -14,4 +14,4 @@ tags:
 2. 规划（Planning）：Agent为了某一目标而作出的决策过程。
     
 3. 行动（Action）：是指基于环境和规划执行动作。
-   ⚠️upload failed, check dev console
+⚠️upload failed, check dev console
