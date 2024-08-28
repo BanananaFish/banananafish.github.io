@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "99f8f08abadd3b1f",
+        "id": "10c099e77ceeee3f",
         "type": "tabs",
         "children": [
           {
-            "id": "f7a6a5755d3572a8",
+            "id": "bae3478074be4f88",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/first post.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/first post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/first post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/posts/first post.md"
+              }
             }
           },
           {
@@ -146,8 +154,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f78e9d93402e9c7e",
+  "active": "bae3478074be4f88",
   "lastOpenFiles": [
+    "public/posts/谁/index.html",
+    "public/posts/谁",
+    "content/posts/谁.md",
+    "content/posts/first post.md",
+    "template/post.md",
+    "public/posts/first-post/index.html",
+    "public/posts/first-post",
+    "2024-08-28.md",
+    "content/posts/hello test.md",
+    "public/posts/hello-test/index.html",
+    "public/posts/hello-test",
+    "public/posts/未命名/index.html",
+    "public/posts/未命名",
+    "content/posts/hello.md",
+    "content/posts/我的第一篇 quick add post.md",
+    "resources/_gen/images/docs/shortcodes/abstract_hu192683809693225908.jpg",
+    "template",
     "public/img/zelda_hu13398593047107824501.jpg",
     "resources/_gen/images/img/zelda_hu13398593047107824501.jpg",
     "assets/img/zelda.jpg",
@@ -157,20 +182,9 @@
     "assets/img/rain.svg",
     "assets/img/lavalamp.svg",
     "assets/img/fireflies.svg",
-    "assets/img/featured.svg",
-    "assets/img/blowfish_logo_transparent.png",
     "assets/img",
     "assets/icons",
-    "public/page/10/index.html",
-    "public/page/10",
-    "public/page/9/index.html",
-    "public/page/9",
-    "public/page/8/index.html",
-    "public/page/8",
-    "public/page/7/index.html",
-    "public/page/7",
     "content/authors/bananafish/_index.zh-cn.md",
-    "content/posts/hello.md",
     "content/posts/_index.zh-cn.md",
     "content/_index.md",
     "content/_index.it.md",
@@ -187,12 +201,6 @@
     "content/users/Adam Madej - Gameplay Animator/index.md",
     "content/users/Adam Madej - Gameplay Animator/index.ja.md",
     "content/users/Adam Madej - Gameplay Animator/index.it.md",
-    "content/users/lelouvincx.github.io/index.zh-cn.md",
-    "content/users/lelouvincx.github.io/index.md",
-    "content/users/lelouvincx.github.io/index.ja.md",
-    "content/users/lelouvincx.github.io/index.it.md",
-    "content/users/niklas-hartmann-dev.de/index.zh-cn.md",
-    "content/users/niklas-hartmann-dev.de/index.md",
-    "content/users/niklas-hartmann-dev.de/index.ja.md"
+    "content/users/lelouvincx.github.io/index.zh-cn.md"
   ]
 }
