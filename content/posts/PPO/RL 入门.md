@@ -27,3 +27,5 @@ $$ \begin{aligned} \nabla \bar{R}_{\theta}&=\sum_{\tau} R(\tau) \nabla p_{\theta
 
 
 ## 经典算法：**REINFORCE**
+![image.png](https://raw.githubusercontent.com/BanananaFish/image_repo/master/20240830123219.png)
+区别在于，$G_t$ 计算该动作之后获取的奖励量，而非直接用整条轨迹的奖励量来加权
