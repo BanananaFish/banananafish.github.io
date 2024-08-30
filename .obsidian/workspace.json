@@ -11,11 +11,9 @@
             "id": "5bd66140c8995eda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/PPO/PPO 入门.md",
-                "mode": "preview",
-                "source": true
+                "file": "content/posts/PPO/PPO GPT-2/featured.webp"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/PPO/PPO 入门.md",
+                "file": "content/posts/PPO/PPO GPT-2/featured.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/PPO/PPO 入门.md",
+                "file": "content/posts/PPO/PPO GPT-2/featured.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/PPO/PPO 入门.md"
+                "file": "content/posts/PPO/PPO GPT-2/featured.webp"
               }
             }
           },
@@ -155,22 +153,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5bd66140c8995eda",
+  "active": "100ff77881d40b6a",
   "lastOpenFiles": [
-    "content/posts/PPO/RL 入门.md",
-    "themes/blowfish/layouts/partials/mathjax.html",
-    "content/posts/PPO/PPO 入门.md",
-    "layouts/_default/baseof.html",
-    "layouts/_default",
-    "layouts/partials/math.html",
-    "layouts/partials",
-    "content/posts/PPO/使用 PPO 进行 GPT-2 的可控训练.md",
-    "public/posts/ppo/ppo-入门/index.html",
-    "public/posts/ppo/ppo-入门",
-    "public/posts/ppo-入门/index.html",
-    "public/posts/ppo-入门",
+    "public/posts/ppo/PPO GPT-2/featured.webp",
+    "content/posts/PPO/RL/featured.webp",
+    "public/posts/ppo/ppo/feature.jpg",
+    "content/posts/PPO/PPO/feature.jpg",
+    "public/posts/ppo/rl/featured.webp",
+    "public/posts/ppo/ppo/feature.webp",
+    "content/posts/PPO/PPO/feature.webp",
+    "public/posts/ppo/PPO GPT-2/feature.webp",
+    "public/posts/ppo/PPO GPT-2",
+    "content/posts/PPO/PPO GPT-2/featured.webp",
+    "public/posts/ppo/rl/feature.webp",
+    "public/posts/ppo/rl/rl-入门/index.html",
+    "public/posts/ppo/rl/rl-入门",
+    "public/posts/ppo/rl",
+    "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
+    "content/posts/PPO/RL",
+    "public/posts/ppo/ppo/ppo-入门/index.html",
+    "public/posts/ppo/ppo/ppo-入门",
+    "public/posts/ppo/ppo",
+    "content/posts/PPO/PPO",
+    "public/posts/ppo/ppo-gpt-2/使用-ppo-进行-gpt-2-的可控训练/index.html",
+    "public/posts/ppo/feature.webp",
+    "content/posts/PPO/PPO/PPO 入门.md",
+    "content/posts/PPO/RL/RL 入门.md",
     "content/posts/PPO/未命名.md",
-    "public/series/初试-ppo/page/1/index.html",
     "content/posts/Agent 调研.md",
     "themes/blowfish/exampleSite/content/users/rejowski.xyz/index.it.md",
     "content/tags/_index.zh-cn.md",
@@ -183,16 +192,6 @@
     "content/posts/hello test.md",
     "content/posts/hello.md",
     "content/posts/我的第一篇 quick add post.md",
-    "resources/_gen/images/docs/shortcodes/abstract_hu192683809693225908.jpg",
-    "public/img/zelda_hu13398593047107824501.jpg",
-    "resources/_gen/images/img/zelda_hu13398593047107824501.jpg",
-    "assets/img/zelda.jpg",
-    "assets/img/waves.svg",
-    "assets/img/traffic.svg",
-    "assets/img/ripples.svg",
-    "assets/img/rain.svg",
-    "assets/img/lavalamp.svg",
-    "assets/img/fireflies.svg",
     "content/authors/bananafish/_index.zh-cn.md",
     "content/posts/_index.zh-cn.md",
     "content/_index.md",
