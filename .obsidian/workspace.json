@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Agent 调研.md",
+                "file": "content/posts/使用 PPO 进行 GPT-2 的可控训练.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Agent 调研.md",
+                "file": "content/posts/使用 PPO 进行 GPT-2 的可控训练.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Agent 调研.md",
+                "file": "content/posts/使用 PPO 进行 GPT-2 的可控训练.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Agent 调研.md"
+                "file": "content/posts/使用 PPO 进行 GPT-2 的可控训练.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "cb73cc05d52b56da",
   "lastOpenFiles": [
-    "content/posts/使用 PPO 进行 GPT-2 的可控训练.md",
     "content/posts/Agent 调研.md",
+    "content/posts/使用 PPO 进行 GPT-2 的可控训练.md",
     "public/posts/agent-调研/index.html",
     "public/posts/agent-调研",
     "themes/blowfish/exampleSite/content/users/rejowski.xyz/index.it.md",

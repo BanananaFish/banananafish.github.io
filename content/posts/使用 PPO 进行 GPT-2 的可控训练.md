@@ -7,4 +7,6 @@ title: 使用 PPO 进行 GPT-2 的可控训练
 tags:
   - LLM
   - RL
+series: PPO入门
 ---
+## RL 初步
