@@ -27,7 +27,6 @@
 {{ end }}
 
 {{/* Katex */}}
-{{ if .Page.HasShortcode "katex" }}
 {{ $katexCSS := resources.Get "lib/katex/katex.min.css" }}
 {{ $katexCSS := $katexCSS | resources.Fingerprint "sha512" }}
 <link type="text/css" rel="stylesheet" href="{{ $katexCSS.RelPermalink }}" integrity="{{ $katexCSS.Data.Integrity }}" />

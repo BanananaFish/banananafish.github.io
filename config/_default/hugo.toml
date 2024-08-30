@@ -66,13 +66,12 @@ enableEmoji = true
       type = 'fragments'
       weight = 10
 
-# [markup]
-#   [markup.goldmark]
-#     [markup.goldmark.extensions]
-#       [markup.goldmark.extensions.passthrough]
-#         enable = true
-#         [markup.goldmark.extensions.passthrough.delimiters]
-#           block = [['$$', '$$']]
-#           inline = [['$', '$']]
-# [params]
-#   math = true
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+        [markup.goldmark.extensions.passthrough]
+            enable = true
+            delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
+            # using $ as the inline-delimiter (optional, maybe)
+            delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
