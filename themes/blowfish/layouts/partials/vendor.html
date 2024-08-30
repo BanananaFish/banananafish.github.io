@@ -35,12 +35,26 @@
 <script defer src="{{ $katexJS.RelPermalink }}" integrity="{{ $katexJS.Data.Integrity }}"></script>
 {{ $katexRenderJS := resources.Get "lib/katex/auto-render.min.js" }}
 {{ $katexRenderJS := $katexRenderJS | resources.Fingerprint "sha512" }}
-<script defer src="{{ $katexRenderJS.RelPermalink }}" integrity="{{ $katexRenderJS.Data.Integrity }}"
-  onload="renderMathInElement(document.body);"></script>
+<script defer src="{{ $katexRenderJS.RelPermalink }}" integrity="{{ $katexRenderJS.Data.Integrity }}"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+        });
+    });
+</script>
 {{ $katexFonts := resources.Match "lib/katex/fonts/*" }}
 {{ range $katexFonts }}
 <!-- {{ .RelPermalink }} -->
-{{ end }}
 {{ end }}
 
 {{/* TypeIt */}}

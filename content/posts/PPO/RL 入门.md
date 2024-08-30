@@ -20,13 +20,15 @@ $$
 \nabla \bar{R}_{\theta}=\sum_{\tau} R(\tau) \nabla p_{\theta}(\tau)
 $$
 做梯度上升：
-
 $$
  \theta \leftarrow \theta+\eta \nabla \bar{R}_{\theta}
 $$
-
 而对于概率分布的梯度如何计算，就是进行一系列基础变换，最后把梯度计算转换成一个采样问题。其中策略对数概率分布的梯度可以使用反向传播来计算：
-
+$$
+\begin{aligned}
+\nabla \bar{R}_{\theta}&=\sum_{\tau} R(\tau) \nabla p_{\theta}(\tau)\\ &=\sum_{\tau} R(\tau) p_{\theta}(\tau) \frac{\nabla p_{\theta}(\tau)}{p_{\theta}(\tau)} \\ &= \sum_{\tau} R(\tau) p_{\theta}(\tau) \nabla \log p_{\theta}(\tau) \\ &=\mathbb{E}_{\tau \sim p_{\theta}(\tau)}\left[R(\tau) \nabla \log p_{\theta}(\tau)\right] \\ & \approx \frac{1}{N} \sum_{n=1}^{N} R\left(\tau^{n}\right) \nabla \log p_{\theta}\left(\tau^{n}\right) \\ &=\frac{1}{N} \sum_{n=1}^{N} \sum_{t=1}^{T_{n}} R\left(\tau^{n}\right) \nabla \log p_{\theta}\left(a_{t}^{n} \mid s_{t}^{n}\right)
+\end{aligned}
+$$
 在实现上来说，我们把策略问题建模成分类问题，我们最大化**采样到的策略**和**实际选择的策略**之间的似然（使用交叉熵计算，也就是最小化交叉熵），并且把似然乘上这次采样到轨迹的**奖励**。再进行梯度上升，在加权了奖励后，使得网络的策略分布向**获取最大的奖励**靠拢。这就实现了**策略梯度**。
 
 
