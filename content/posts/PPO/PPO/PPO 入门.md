@@ -18,3 +18,9 @@ series_order: "2"
 
 ## 重要性采样
 **问题**：如何用一个可采样的分布 $q$ 去近似一个不可采样的分布 $p$ 的随机变量期望
+
+使用重要性采样：
+$$
+ \int f(x) p(x) \mathrm{d}x=\int f(x) \frac{p(x)}{q(x)} q(x) \mathrm{d}x=\mathbb{E}_{x \sim q}[f(x){\frac{p(x)}{q(x)}}]
+$$
+这样只需要在采样上乘重要性系数就能近似目标分布。
