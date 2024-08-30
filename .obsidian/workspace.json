@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
+                "file": "content/posts/PPO/PPO/PPO 入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
+                "file": "content/posts/PPO/PPO/PPO 入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
+                "file": "content/posts/PPO/PPO/PPO 入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md"
+                "file": "content/posts/PPO/PPO/PPO 入门.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "5bd66140c8995eda",
   "lastOpenFiles": [
+    "content/posts/PPO/PPO/PPO 入门.md",
+    "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
     "public/posts/ppo/rl/featured.jpg",
     "content/posts/PPO/RL/featured.jpg",
     "content/posts/PPO/RL/featured.webp",
@@ -167,19 +169,16 @@
     "content/posts/PPO/PPO/featured.jpg",
     "public/posts/ppo/PPO GPT-2/featured.webp",
     "public/posts/ppo/ppo/feature.jpg",
-    "content/posts/PPO/PPO/feature.jpg",
     "public/posts/ppo/PPO GPT-2",
     "public/posts/ppo/rl/rl-入门/index.html",
     "public/posts/ppo/rl/rl-入门",
     "public/posts/ppo/rl",
-    "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
     "content/posts/PPO/RL",
     "public/posts/ppo/ppo/ppo-入门/index.html",
     "public/posts/ppo/ppo/ppo-入门",
     "public/posts/ppo/ppo",
     "content/posts/PPO/PPO",
     "public/posts/ppo/ppo-gpt-2/使用-ppo-进行-gpt-2-的可控训练/index.html",
-    "content/posts/PPO/PPO/PPO 入门.md",
     "content/posts/PPO/RL/RL 入门.md",
     "content/posts/PPO/未命名.md",
     "content/posts/Agent 调研.md",
