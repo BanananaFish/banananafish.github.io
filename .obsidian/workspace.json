@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md",
+                "file": "content/posts/PPO/RL/RL 入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md",
+                "file": "content/posts/PPO/RL/RL 入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md",
+                "file": "content/posts/PPO/RL/RL 入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md"
+                "file": "content/posts/PPO/RL/RL 入门.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "f94f54a133efa68c",
   "lastOpenFiles": [
-    "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
+    "content/posts/PPO/RL/featured.jpg",
     "content/posts/PPO/PPO/PPO 入门.md",
+    "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
     "content/posts/PPO/RL/RL 入门.md",
     "城市问题（倍速） 1.mp4",
     "城市问题（倍速）.mp4",
@@ -167,7 +168,6 @@
     "content/posts/blowfish latex支持",
     "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
     "public/posts/ppo/rl/featured.jpg",
-    "content/posts/PPO/RL/featured.jpg",
     "content/posts/PPO/RL/featured.webp",
     "public/posts/ppo/PPO GPT-2/featured.jpg",
     "content/posts/PPO/PPO GPT-2/featured.jpg",
@@ -201,7 +201,6 @@
     "content/users/vkmki001.github.io/index.zh-cn.md",
     "content/users/vkmki001.github.io/index.md",
     "content/users/vkmki001.github.io/index.ja.md",
-    "content/users/vkmki001.github.io/index.it.md",
-    "content/users/renaud.warnotte.be/index.zh-cn.md"
+    "content/users/vkmki001.github.io/index.it.md"
   ]
 }

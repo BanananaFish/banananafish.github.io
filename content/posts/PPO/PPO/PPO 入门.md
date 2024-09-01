@@ -51,3 +51,4 @@ $$ \begin{aligned} &J_{\mathrm{PPO}}^{\theta^{\prime}}(\theta)=J^{\theta^{\prime
 不使用正则项，而是使用一个 clip 操作，自适应的调节分布差异。
 
 ## 参考
+[EasyRL 第五章 PPO](https://datawhalechina.github.io/easy-rl/#/chapter5/chapter5?id=%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae)
