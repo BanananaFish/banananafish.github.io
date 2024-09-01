@@ -47,5 +47,5 @@ $$
 $$ \begin{aligned} &J_{\mathrm{PPO}}^{\theta^{\prime}}(\theta)=J^{\theta^{\prime}}(\theta)-\beta \mathrm{KL}\left(\theta, \theta^{\prime}\right) \\ &J^{\theta^{\prime}}(\theta)=\mathbb{E}_{\left(s_{t}, a_{t}\right) \sim \pi_{\theta^{\prime}}}\left[\frac{p_{\theta}\left(a_{t} \mid s_{t}\right)}{p_{\theta^{\prime}}\left(a_{t} \mid s_{t}\right)} A^{\theta^{\prime}}\left(s_{t}, a_{t}\right)\right] \end{aligned} $$
 
 ## 变种
-### PPO 1
-采样一组轨迹，更新多次参数，并不立即废弃并重采样
+### PPO-clip
+不使用正则项，而是使用一个 clip 操作，自适应的调节分布差异。
