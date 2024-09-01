@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/PPO/RL/RL 入门.md",
+                "file": "content/_index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/PPO/RL/RL 入门.md",
+                "file": "content/_index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/PPO/RL/RL 入门.md",
+                "file": "content/_index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/PPO/RL/RL 入门.md"
+                "file": "content/_index.zh-cn.md"
               }
             }
           },
@@ -157,10 +157,12 @@
   },
   "active": "f94f54a133efa68c",
   "lastOpenFiles": [
+    "content/authors/bananafish/_index.zh-cn.md",
+    "content/authors/_index.zh-cn.md",
+    "content/posts/PPO/RL/RL 入门.md",
     "content/posts/PPO/RL/featured.jpg",
     "content/posts/PPO/PPO/PPO 入门.md",
     "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
-    "content/posts/PPO/RL/RL 入门.md",
     "城市问题（倍速） 1.mp4",
     "城市问题（倍速）.mp4",
     "content/posts/blog/latex 支持",
@@ -194,7 +196,6 @@
     "content/posts/hello test.md",
     "content/posts/hello.md",
     "content/posts/我的第一篇 quick add post.md",
-    "content/authors/bananafish/_index.zh-cn.md",
     "content/posts/_index.zh-cn.md",
     "content/_index.md",
     "content/_index.it.md",
