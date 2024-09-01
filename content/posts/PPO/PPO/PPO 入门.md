@@ -1,6 +1,6 @@
 ---
 date: 2024-08-30
-draft: true
+draft: false
 params:
   author: Bananafish
 title: PPO 入门
