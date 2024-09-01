@@ -23,4 +23,4 @@ series_order: "2"
 $$
  \int f(x) p(x) \mathrm{d}x=\int f(x) \frac{p(x)}{q(x)} q(x) \mathrm{d}x=\mathbb{E}_{x \sim q}[f(x){\frac{p(x)}{q(x)}}]
 $$
-这样只需要在采样上乘重要性系数就能近似目标分布。
+这样只需要在采样上乘重要性系数就能近似目标分布。注意，这个采样对于方差是有偏的。
