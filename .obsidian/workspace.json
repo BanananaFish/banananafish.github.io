@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md",
+                "file": "content/posts/blog/latex 支持/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md",
+                "file": "content/posts/blog/latex 支持/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md",
+                "file": "content/posts/blog/latex 支持/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/PPO/PPO/PPO 入门.md"
+                "file": "content/posts/blog/latex 支持/未命名.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "5bd66140c8995eda",
   "lastOpenFiles": [
-    "content/posts/PPO/RL/RL 入门.md",
     "content/posts/PPO/PPO/PPO 入门.md",
+    "content/posts/blog/latex 支持/未命名.md",
+    "content/posts/PPO/RL/RL 入门.md",
     "城市问题（倍速） 1.mp4",
     "城市问题（倍速）.mp4",
     "content/posts/blog/latex 支持",

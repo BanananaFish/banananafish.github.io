@@ -40,4 +40,4 @@ $$ \mathbb{E}_{\left(s_{t}, a_{t}\right) \sim \pi_{\theta^{\prime}}}\left[\frac{
 就是从采样到的数据集中，训练 $\theta$ ，其中 $A ()$ 为减去基线后的奖励，称作优势。而可以假设对于每个模型，状态分布是相同的，即 $p_{\theta}(s_t) \approx p_{\theta'}(s_t)$，使用条件概率，就可以化简为：
 $$ \mathbb{E}_{\left(s_{t}, a_{t}\right) \sim \pi_{\theta^{\prime}}}\left[\frac{p_{\theta}\left(a_{t} | s_{t}\right)}{p_{\theta^{\prime}}\left(a_{t} | s_{t}\right)} A^{\theta^{\prime}}\left(s_{t}, a_{t}\right) \nabla \log p_{\theta}\left(a_{t}^{n} | s_{t}^{n}\right)\right]
 $$
-这样就可以用分类任务的方式收集数据与优化了
+这样就可以用策略网络（类似分类任务）的方式收集数据与优化了。
