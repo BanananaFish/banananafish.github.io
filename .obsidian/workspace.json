@@ -155,8 +155,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f94f54a133efa68c",
+  "active": "100ff77881d40b6a",
   "lastOpenFiles": [
+    "public/img/avatar_hu16310622642326594686.jpg",
+    "public/img/avatar_hu10896205707166045038.jpg",
+    "resources/_gen/images/img/avatar_hu16310622642326594686.jpg",
+    "resources/_gen/images/img/avatar_hu10896205707166045038.jpg",
+    "assets/img/avatar.jpg",
+    "assets/img/a0011466745_10.jpg",
     "content/authors/bananafish/_index.zh-cn.md",
     "content/authors/_index.zh-cn.md",
     "content/posts/PPO/RL/RL 入门.md",
@@ -173,11 +179,6 @@
     "content/posts/PPO/RL/featured.webp",
     "public/posts/ppo/PPO GPT-2/featured.jpg",
     "content/posts/PPO/PPO GPT-2/featured.jpg",
-    "content/posts/PPO/PPO GPT-2/featured.webp",
-    "public/posts/ppo/ppo/featured.jpg",
-    "content/posts/PPO/PPO/featured.jpg",
-    "public/posts/ppo/PPO GPT-2/featured.webp",
-    "public/posts/ppo/ppo/feature.jpg",
     "public/posts/ppo/PPO GPT-2",
     "public/posts/ppo/rl/rl-入门/index.html",
     "public/posts/ppo/rl/rl-入门",
@@ -201,7 +202,6 @@
     "content/_index.it.md",
     "content/users/vkmki001.github.io/index.zh-cn.md",
     "content/users/vkmki001.github.io/index.md",
-    "content/users/vkmki001.github.io/index.ja.md",
-    "content/users/vkmki001.github.io/index.it.md"
+    "content/users/vkmki001.github.io/index.ja.md"
   ]
 }
