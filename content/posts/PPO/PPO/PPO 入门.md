@@ -28,3 +28,11 @@ $$ \begin{aligned}
 \operatorname{Var}_{x \sim q}\left[f(x) \frac{p(x)}{q(x)}\right] &=\mathbb{E}_{x \sim q}\left[\left(f(x) \frac{p(x)}{q(x)}\right)^{2}\right]-\left(\mathbb{E}_{x \sim q}\left[f(x) \frac{p(x)}{q(x)}\right]\right)^{2} \\ &=\mathbb{E}_{x \sim p}\left[f(x)^{2} \frac{p(x)}{q(x)}\right]-\left(\mathbb{E}_{x \sim p}[f(x)]\right)^{2} 
 \end{aligned} $$
 $p$ 和 $q$ 差距不大时，方差第一项的系数可以忽略。
+
+
+## 使用重要性采样来实现异策略
+把策略梯度的采样换成重要性采样：
+$$
+ \nabla \bar{R}_{\theta}=\mathbb{E}_{\tau \sim p_{\theta^{\prime}(\tau)}}\left[\frac{p_{\theta}(\tau)}{p_{\theta^{\prime}}(\tau)} R(\tau) \nabla \log p_{\theta}(\tau)\right]
+$$
+$\theta'$ 作为“示范”，只负责采样，然后训练 $\theta$ ，从而实现多次采样，一次更新。 
