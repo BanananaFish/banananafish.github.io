@@ -49,3 +49,5 @@ $$ \begin{aligned} &J_{\mathrm{PPO}}^{\theta^{\prime}}(\theta)=J^{\theta^{\prime
 ## 变种
 ### PPO-clip
 不使用正则项，而是使用一个 clip 操作，自适应的调节分布差异。
+
+## 参考
