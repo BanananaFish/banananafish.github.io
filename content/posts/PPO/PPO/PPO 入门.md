@@ -35,4 +35,9 @@ $p$ 和 $q$ 差距不大时，方差第一项的系数可以忽略。
 $$
  \nabla \bar{R}_{\theta}=\mathbb{E}_{\tau \sim p_{\theta^{\prime}(\tau)}}\left[\frac{p_{\theta}(\tau)}{p_{\theta^{\prime}}(\tau)} R(\tau) \nabla \log p_{\theta}(\tau)\right]
 $$
-$\theta'$ 作为“示范”，只负责采样，然后训练 $\theta$ ，从而实现多次采样，一次更新。 
+$\theta'$ 作为“示范”，只负责采样，然后训练 $\theta$ ，从而实现多次采样，一次更新。训练过程为：
+$$ \mathbb{E}_{\left(s_{t}, a_{t}\right) \sim \pi_{\theta^{\prime}}}\left[\frac{p_{\theta}\left(s_{t}, a_{t}\right)}{p_{\theta^{\prime}}\left(s_{t}, a_{t}\right)} A^{\theta}\left(s_{t}, a_{t}\right) \nabla \log p_{\theta}\left(a_{t}^{n} | s_{t}^{n}\right)\right] $$
+就是从采样到的数据集中，训练 $\theta$ ，其中 $A ()$ 为减去基线后的奖励，称作优势。而可以假设对于每个模型，状态分布是相同的，即 $p_{\theta}(s_t) \approx p_{\theta'}(s_t)$，使用条件概率，就可以化简为：
+$$ \mathbb{E}_{\left(s_{t}, a_{t}\right) \sim \pi_{\theta^{\prime}}}\left[\frac{p_{\theta}\left(a_{t} | s_{t}\right)}{p_{\theta^{\prime}}\left(a_{t} | s_{t}\right)} A^{\theta^{\prime}}\left(s_{t}, a_{t}\right) \nabla \log p_{\theta}\left(a_{t}^{n} | s_{t}^{n}\right)\right]
+$$
+这样就可以用分类任务的方式收集数据与优化了
