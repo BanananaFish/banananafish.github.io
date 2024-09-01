@@ -23,4 +23,8 @@ series_order: "2"
 $$
  \int f(x) p(x) \mathrm{d}x=\int f(x) \frac{p(x)}{q(x)} q(x) \mathrm{d}x=\mathbb{E}_{x \sim q}[f(x){\frac{p(x)}{q(x)}}]
 $$
-这样只需要在采样上乘重要性系数就能近似目标分布。注意，这个采样对于方差是有偏的。
+这样只需要在采样上乘重要性系数就能近似目标分布。注意，这个采样对于方差是有偏的，也就是：
+$$ \begin{aligned} 
+\operatorname{Var}_{x \sim q}\left[f(x) \frac{p(x)}{q(x)}\right] &=\mathbb{E}_{x \sim q}\left[\left(f(x) \frac{p(x)}{q(x)}\right)^{2}\right]-\left(\mathbb{E}_{x \sim q}\left[f(x) \frac{p(x)}{q(x)}\right]\right)^{2} \\ &=\mathbb{E}_{x \sim p}\left[f(x)^{2} \frac{p(x)}{q(x)}\right]-\left(\mathbb{E}_{x \sim p}[f(x)]\right)^{2} 
+\end{aligned} $$
+$p$ 和 $q$ 差距不大时，方差第一项的系数可以忽略。
