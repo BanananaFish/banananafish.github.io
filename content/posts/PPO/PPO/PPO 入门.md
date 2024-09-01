@@ -45,3 +45,7 @@ $$
 ## PPO
 可以看到，异策略方式的结果好坏和两个分布的相似程度息息相关。PPO 依靠添加约束，类似于正则化，让两个分布相似（KL 散度减小）。目标函数就是上面的增加一项：
 $$ \begin{aligned} &J_{\mathrm{PPO}}^{\theta^{\prime}}(\theta)=J^{\theta^{\prime}}(\theta)-\beta \mathrm{KL}\left(\theta, \theta^{\prime}\right) \\ &J^{\theta^{\prime}}(\theta)=\mathbb{E}_{\left(s_{t}, a_{t}\right) \sim \pi_{\theta^{\prime}}}\left[\frac{p_{\theta}\left(a_{t} \mid s_{t}\right)}{p_{\theta^{\prime}}\left(a_{t} \mid s_{t}\right)} A^{\theta^{\prime}}\left(s_{t}, a_{t}\right)\right] \end{aligned} $$
+
+## 变种
+### PPO 1
+采样一组轨迹，更新多次参数，并不立即废弃并重采样
