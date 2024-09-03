@@ -11,11 +11,9 @@
             "id": "f94f54a133efa68c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
-                "mode": "source",
-                "source": false
+                "file": "content/posts/PPO/RL/featured.jpg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
+                "file": "content/posts/PPO/RL/featured.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
+                "file": "content/posts/PPO/RL/featured.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md"
+                "file": "content/posts/PPO/RL/featured.jpg"
               }
             }
           },
@@ -155,36 +153,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "100ff77881d40b6a",
+  "active": "f94f54a133efa68c",
   "lastOpenFiles": [
-    "content/posts/ai4sci",
-    "content/posts/PPO/PPO/PPO 入门.md",
+    "public/posts/ppo/rl/index.html",
+    "public/posts/ppo/ppo-gpt-2/index.html",
+    "public/posts/ppo/rl/featured_hu8479908853489296908.jpg",
+    "public/posts/ppo/ppo-gpt-2/featured_hu8479908853489296908.jpg",
+    "public/posts/ppo/ppo-gpt-2/featured_hu15827419040790123569.jpg",
+    "public/posts/ppo/ppo/index.html",
+    "public/posts/ppo/ppo/featured_hu8479908853489296908.jpg",
+    "public/posts/ppo/rl/featured_hu15827419040790123569.jpg",
+    "public/posts/ppo/ppo/featured_hu15827419040790123569.jpg",
+    "resources/_gen/images/posts/ppo/ppo/featured_hu8479908853489296908.jpg",
+    "resources/_gen/images/posts/ppo/rl/featured_hu8479908853489296908.jpg",
+    "resources/_gen/images/posts/ppo/rl/featured_hu15827419040790123569.jpg",
+    "resources/_gen/images/posts/ppo/ppo-gpt-2/featured_hu8479908853489296908.jpg",
+    "resources/_gen/images/posts/ppo/rl",
+    "resources/_gen/images/posts/ppo/ppo-gpt-2",
+    "resources/_gen/images/posts/ppo/ppo",
+    "resources/_gen/images/posts/ppo",
+    "resources/_gen/images/posts",
+    "content/posts/PPO/RL/index.md",
+    "content/posts/PPO/PPO GPT-2/index.md",
     "content/posts/blog/latex 支持/让 Blowfish 主题支持 LaTeX.md",
+    "content/posts/ai4sci",
+    "content/posts/PPO/PPO/index.md",
     "content/_index.zh-cn.md",
     "public/posts/blog/latex-支持/让-blowfish-主题支持-latex/index.html",
     "public/posts/blog/latex-支持/让-blowfish-主题支持-latex",
-    "public/posts/blog/latex-支持",
-    "public/posts/blog",
-    "public/tags/blog/page/1/index.html",
-    "public/tags/blog/page/1",
-    "public/tags/blog/page",
-    "public/tags/blog/index.xml",
-    "public/tags/blog/index.html",
-    "public/tags/blog",
-    "public/img/avatar_hu16310622642326594686.jpg",
-    "public/img/avatar_hu10896205707166045038.jpg",
-    "resources/_gen/images/img/avatar_hu16310622642326594686.jpg",
-    "resources/_gen/images/img/avatar_hu10896205707166045038.jpg",
-    "assets/img/avatar.jpg",
-    "assets/img/a0011466745_10.jpg",
     "content/authors/bananafish/_index.zh-cn.md",
     "content/authors/_index.zh-cn.md",
-    "content/posts/PPO/RL/RL 入门.md",
-    "content/posts/PPO/RL/featured.jpg",
-    "content/posts/PPO/PPO GPT-2/使用 PPO 进行 GPT-2 的可控训练.md",
-    "public/posts/ppo/rl/featured.jpg",
-    "content/posts/PPO/RL/featured.webp",
-    "public/posts/ppo/PPO GPT-2/featured.jpg",
     "content/posts/PPO/未命名.md",
     "content/posts/Agent 调研.md",
     "themes/blowfish/exampleSite/content/users/rejowski.xyz/index.it.md",
