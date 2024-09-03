@@ -11,7 +11,7 @@ title = "香蕉鱼鱼"
   logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Bananafish's blog"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "Bananafish"
